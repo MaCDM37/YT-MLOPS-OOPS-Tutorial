@@ -1,0 +1,6 @@
+1. Class and Object (examples)
+2. Class has data/attribute and func/methods
+    a. Code Walkthrough?
+    b. attributes get called itself, methods are called manually
+3. Why Python is called Object Oriented Programming? - Everything in python is an object (data structure, 
+data, type)
