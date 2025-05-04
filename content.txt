@@ -4,3 +4,9 @@
     b. attributes get called itself, methods are called manually
 3. Why Python is called Object Oriented Programming? - Everything in python is an object (data structure, 
 data, type)
+
+4. End to end project has been created (chatbook class)
+    >encapsulation
+    >getter and setter
+    >static methods
+    >

@@ -1,6 +1,6 @@
-lst = [1,2,3]
-my_str = "mlops playlist"
-my_int = 155
+#lst = [1,2,3]
+#my_str = "mlops playlist"
+#my_int = 155
 
 #print(type(lst))
 #print(type(str))
@@ -9,5 +9,9 @@ my_int = 155
 #lst.clear()
 #print(lst)
 
-my_str = my_str.capitalize()
-print(my_str)
+#my_str = my_str.capitalize()
+#print(my_str)
+
+from oops_proj import chatbook
+
+user1 = chatbook()
