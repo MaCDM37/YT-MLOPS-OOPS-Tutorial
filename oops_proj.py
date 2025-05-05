@@ -2,12 +2,26 @@
 # getter and setter
 
 class chatbook:
+    
+    __user_id = 0
+
+    
     def __init__(self):
+        self.id = chatbook.__user_id
+        chatbook.__user_id += 1
+        self.__name = "Default User"
         self.username = ""
         self.password = ""
         self.loggedin = False
-        self.menu()
+        #self.menu()
     
+    @staticmethod
+    def get_id(self):
+        return self.__user_id
+    
+    def set_id(self,value):
+        chatbook.__user_id = value   
+
     def menu(self):
         user_input = input("""Welcome to Chatbook!!, How would you like to proceed?
                            1. Press 1 to signup
@@ -71,4 +85,3 @@ class chatbook:
         print("\n")
         self.menu()
 
-#user1 = chatbook()

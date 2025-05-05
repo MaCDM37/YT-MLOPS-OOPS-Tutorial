@@ -9,4 +9,7 @@ data, type)
     >encapsulation
     >getter and setter
     >static methods
-    >
+    >magic method
+    >dunder method
+    >function vs method
+    >self
